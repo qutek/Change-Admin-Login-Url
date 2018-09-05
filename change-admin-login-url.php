@@ -5,7 +5,7 @@
  * Author: Lafif Astahdziq
  * Author URI: https://lafif.me
  * Author Email: hello@lafif.me
- * Version: 1.0
+ * Version: 1.0.0
  * Text Domain: calu
  * Domain Path: /languages/ 
  */
@@ -20,14 +20,14 @@ if ( ! class_exists( 'Change_Admin_Login_Url' ) ) :
  * Main Change_Admin_Login_Url Class
  *
  * @class Change_Admin_Login_Url
- * @version	1.0
+ * @version	1.0.0
  */
 final class Change_Admin_Login_Url {
 
 	/**
 	 * @var string
 	 */
-	public $version = '1.0';
+	public $version = '1.0.0';
 
 	public $capability = 'manage_options';
 
@@ -35,7 +35,7 @@ final class Change_Admin_Login_Url {
 
 	/**
 	 * @var Change_Admin_Login_Url The single instance of the class
-	 * @since 1.0
+	 * @since 1.0.0
 	 */
 	protected static $_instance = null;
 
@@ -44,7 +44,7 @@ final class Change_Admin_Login_Url {
 	 *
 	 * Ensures only one instance of Change_Admin_Login_Url is loaded or can be loaded.
 	 *
-	 * @since 1.0
+	 * @since 1.0.0
 	 * @static
 	 * @return Change_Admin_Login_Url - Main instance
 	 */
@@ -68,7 +68,7 @@ final class Change_Admin_Login_Url {
 
 	/**
 	 * Hook into actions and filters
-	 * @since  1.0
+	 * @since  1.0.0
 	 */
 	private function init_hooks() {
 
@@ -218,7 +218,7 @@ function incompatible_notice(){
 /**
  * Returns the main instance of Change_Admin_Login_Url to prevent the need to use globals.
  *
- * @since  1.0
+ * @since  1.0.0
  * @return Change_Admin_Login_Url
  */
 function CALU() {
